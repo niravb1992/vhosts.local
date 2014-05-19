@@ -1,0 +1,4 @@
+{
+	"httpdconf":"/opt/local/apache2/conf/httpd.conf",
+	"apachectl":"/opt/local/apache2/bin/apachectl",
+}
