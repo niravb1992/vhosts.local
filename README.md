@@ -19,7 +19,7 @@ Include conf/extra/httpd-vhosts.conf
 Setup
 ======
 1. Download the latest release from the releases tab
-2. Extract the downloaded zip folder
+2. Extract the downloaded file
 
 Run
 =======
