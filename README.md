@@ -1,5 +1,5 @@
 
-vhosts.local [Incomplete]
+vhosts.local
 ===============
 
 A simple script to create an apache virtual host in mac
@@ -16,9 +16,16 @@ Prerequisites
 Include conf/extra/httpd-vhosts.conf
 ````
 
+Setup
+======
+1. Download the latest release from the releases tab
+2. Extract the downloaded zip folder
+
 Run
 =======
 
 ````
-python vhost.py
+cd path/to/vhosts.local/directory
+sudo python vhost.py
 ````
+<strong>NOTE: You must run the above vhost.py as sudo since certain system files need to be modified.</strong>
