@@ -9,7 +9,7 @@ Prerequisites
 
 1. Install:
 	1. Apache
-	2. Python (Not if you have Xcode installed)
+	2. Python (Only if you don't have Xcode installed)
 2. In your httpd.conf, virtual hosts have been enabled by uncommenting the line below
 
 ````
