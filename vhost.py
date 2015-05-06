@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 
 import tempfile, os, time, sys, subprocess, shutil, json
 

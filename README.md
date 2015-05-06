@@ -26,6 +26,6 @@ Run
 
 ````
 cd path/to/vhosts.local/directory
-sudo python vhost.py
+sudo ./vhost.py
 ````
-<strong>NOTE: You must run the above vhost.py as sudo since certain system files need to be modified.</strong>
+**NOTE: You must run vhost.py as sudo since httpd-vhosts.conf needs to be modified.**
