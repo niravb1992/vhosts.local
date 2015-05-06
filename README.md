@@ -28,4 +28,4 @@ Run
 cd path/to/vhosts.local/directory
 sudo ./vhost.py
 ````
-**NOTE: You must run vhost.py as sudo since httpd-vhosts.conf needs to be modified.**
+**NOTE: You must run vhost.py as sudo since httpd-vhosts.conf and /etc/hosts need to be modified.**
