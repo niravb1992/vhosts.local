@@ -2,7 +2,7 @@
 vhosts.local
 ===============
 
-Python script to create an apache virtual host in mac
+A simple Python script to create apache virtual hosts in OS X
 
 Prerequisites
 ================
