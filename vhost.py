@@ -2,7 +2,10 @@
 
 import tempfile, os, time, sys, subprocess, shutil, json
 
-if(not os.path.exists(os.getcwd()+'/config.json')):
+current_dir = os.getcwd()
+
+if(not os.path.exists("%s/config.json" % current_dir)):
+    print "config.json not found. Creating a new one in %s" % current_dir
     shutil.copy('config.json.sample','config.json')
 
 if (not os.path.exists('/etc/hosts')):
@@ -29,7 +32,7 @@ if(not os.path.exists(site_root_dir)):
     print "Error: This directory doesn't exist"
     sys.exit(0)
 
-with open('sample-vhost.txt', 'r') as f:
+with open('.sample-vhost.txt', 'r') as f:
     vhost_lines = f.readlines()
     vhost_lines.insert(0,"\n\n")
     vhost_lines.insert(2,'\tDocumentRoot "'+site_root_dir+'"\n')
