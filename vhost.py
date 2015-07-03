@@ -32,7 +32,7 @@ if(not os.path.exists(site_root_dir)):
     print "Error: This directory doesn't exist"
     sys.exit(0)
 
-with open('.sample-vhost.txt', 'r') as f:
+with open('.base-vhost.txt', 'r') as f:
     vhost_lines = f.readlines()
     vhost_lines.insert(0,"\n\n")
     vhost_lines.insert(2,'\tDocumentRoot "'+site_root_dir+'"\n')
