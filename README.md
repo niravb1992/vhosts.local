@@ -6,10 +6,7 @@ This project provides a Python script to create apache virtual hosts in OS X.
 Prerequisites
 ================
 
-1. Install:
-	1. Apache
-	2. Python
-2. In your httpd.conf, virtual hosts have been enabled by uncommenting the line below
+In your Apache's httpd.conf, virtual hosts have been enabled by uncommenting the line below
 
 ````
 Include conf/extra/httpd-vhosts.conf
