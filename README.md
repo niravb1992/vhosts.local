@@ -14,7 +14,7 @@ Include conf/extra/httpd-vhosts.conf
 
 Run
 ======
-Download the latest release from the releases tab, extract it, and simply;
+Download the latest release from the releases tab, extract it, and simply:
 
 ````
 sudo ./vhost.py
