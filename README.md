@@ -1,7 +1,7 @@
 
 About
 ===============
-This project provides a Python script to create apache virtual hosts in OS X.
+This project provides a Python script to create Apache virtual hosts in OS X.
 
 Prerequisites
 ================
