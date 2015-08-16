@@ -23,3 +23,8 @@ Getting Started
    sudo ./vhost.py
    ````
     **You must run vhost.py as sudo since httpd-vhosts.conf and /etc/hosts need to be modified.**
+
+## Removing a virtual host created by vhost.py
+1. Open your httpd-vhosts.conf file, and delete the `<VirtualHost *:80>` entry corresponding to your virtual host
+2. Open `/etc/hosts/` and delete the `127.0.0.1	<some site name>.local` entry corresponding to your virtual host
+3. Restart apache
