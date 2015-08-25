@@ -32,7 +32,8 @@ Getting Started
 
 ## Modifying the virtual host created by vhost.py
 
-Open your httpd-vhosts.conf file and edit the `<VirtualHost *:80>` entry corresponding to your site as you wish!
+1. Open your httpd-vhosts.conf file and edit the `<VirtualHost *:80>` entry corresponding to your site as you wish!
+2. Restart apache to get the changes to show up
 
 ## Modifying .base-vhost.txt
 
