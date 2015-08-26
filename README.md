@@ -30,7 +30,7 @@ Getting Started
 2. Open `/etc/hosts/` and delete the `127.0.0.1	<some site name>.local` entry corresponding to your virtual host
 3. Restart apache
 
-## Modifying the virtual host created by vhost.py
+## Modifying a virtual host created by vhost.py
 
 1. Open your httpd-vhosts.conf file and edit the `<VirtualHost *:80>` entry corresponding to your site as you wish!
 2. Restart apache to get the changes to show up
